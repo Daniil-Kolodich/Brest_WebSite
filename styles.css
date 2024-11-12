@@ -76,7 +76,7 @@ footer {
     }
 } 
 
-#famous-people, #landmarks {
+#famous-people, #landmarks, #games {
     .title {
         font-size: 44px;
         font-weight: bold;
@@ -110,6 +110,23 @@ footer {
 
 #famous-people {
     .card-holder > .card:nth-child(3) {
+        grid-column: span 2;
+    }
+}
+
+#games {
+    .target {
+        border: solid 4px blue;
+        border-radius: 16px;
+        margin: 8px;
+    }
+
+    .description {
+        border: solid 4px coral;
+        border-radius: 8px;
+    }
+
+    .card-holder > .card:nth-child(1) {
         grid-column: span 2;
     }
 }
